@@ -1,0 +1,15 @@
+1. Hit win + x
+2. Go to powershell admin
+3. paste these commands and complete
+
+
+1. Set-ExecutionPolicy Bypass -Scope Process -Force
+
+2. .\install_setup.ps1
+
+
+Note: This script uses winget to install applications, so you don't need a USB drive with installers.
+Make sure you have an internet connection for winget to download and install the applications.
+
+If winget is not installed, you can install it from the Microsoft Store by searching for "App Installer".
+
