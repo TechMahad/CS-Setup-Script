@@ -1,0 +1,1 @@
+DPInst.exe /PATH ../ /sw

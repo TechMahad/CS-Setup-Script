@@ -1,0 +1,495 @@
+;
+; COPYRIGHT (C) 2014 ZIH
+;
+;
+;	Printer Installation File
+;
+;	 List of supported printers, manufacturers
+;
+[Version]
+Signature="$Windows NT$"
+Provider="ZEBRA"
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=ZBRN.cat
+DriverVer=02/21/2014,7.1.7
+
+[Manufacturer]
+"ZDesigner"=ZDesigner,NTamd64
+
+[ZDesigner]
+"Zebra  S4MDT-200 dpi" = BAS4MZ2,LPTENUM\Zebra_TechnologiesZT57FB,USBPRINT\Zebra_TechnologiesZT57FB,SERENUM\ZBR0044
+"Zebra S4M-203dpi EPL" = BAS4ME2,LPTENUM\ZEBRA_TECHNOLOGIESZT32B3,USBPRINT\Zebra_TechnologiesZT32B3
+"Zebra  110Xi4 203 dpi" = BA110XI42,LPTENUM\Zebra_TechnologiesZT4F6A,USBPRINT\Zebra_TechnologiesZT4F6A
+"Zebra  140XiIII Plus" = BA14XI3P,LPTENUM\Zebra_TechnologiesZT77DB,USBPRINT\Zebra_TechnologiesZT77DB
+"Zebra  Z4MPlusDT-200 dpi" = BAZ4M1P,LPTENUM\Zebra_TechnologiesZTAD62,USBPRINT\Zebra_TechnologiesZTAD62
+"Zebra  ZM400DT-200 dpi" = BZM4Z2,LPTENUM\Zebra_TechnologiesZTF241,USBPRINT\Zebra_TechnologiesZTF241,LPTENUM\Zebra_TechnologiesZT4FD8,USBPRINT\Zebra_TechnologiesZT4FD8
+"Zebra  R110XiIII Plus (200dpi)" = BAR110XI,LPTENUM\Zebra_TechnologiesZT6073,USBPRINT\Zebra_TechnologiesZT6073
+"Zebra  ZP 450-200 dpi" = ZP450,LPTENUM\Zebra_TechnologiesZT9BEC,USBPRINT\Zebra_TechnologiesZT9BEC,LPTENUM\Zebra_TechnologiesZT49B0,USBPRINT\Zebra_TechnologiesZT49AC,USBPRINT\Zebra_TechnologiesZT49B0,USBPRINT\Zebra_TechnologiesZTC80B,LPTENUM\Zebra_TechnologiesZTC80B
+"Zebra  Firmware Loader" = BAGK420D,LPTENUM\Zebra_TechnologiesFI44FA,USBPRINT\Zebra_TechnologiesFI44FA 
+"UPS Thermal 2442"=BAB2442,
+"UPS Thermal 2542"=BAB2442,
+"UPS Thermal 2543"=BAB2442,
+"UPS Thermal 2844"=BAB2844,USBPRINT\UPS_Thermal_2844_643C
+"Eltron LP2348"=BAB2348,USBPRINT\Eltron_LP2348_D655
+"Eltron TLP2044"=BAB2044,
+"Eltron LP2844"=BAB2844,USBPRINT\Eltron_LP2844_F252
+"Zebra  ZP455(EPL)"=BGK420DE,LPTENUM\Zebra_TechnologiesZT61EE,USBPRINT\Zebra_TechnologiesZT61EE
+"Zebra UPS ZT220 (EPL)" = BAS4ME2,LPTENUM\Zebra_Technologies_ZA6ED,USBPRINT\Zebra_Technologies_ZA6ED
+"Zebra  UPS ZT220 (ZPL)" = BAS4MZ2,LPTENUM\Zebra_Technologies_Z72EA,USBPRINT\Zebra_Technologies_Z72EA
+"Zebra UPS ZT230 (EPL)" = BAS4ME2,LPTENUM\Zebra_Technologies_Z6A2C,USBPRINT\Zebra_Technologies_Z6A2C
+"Zebra  UPS ZT230 (ZPL)" = BAS4MZ2,LPTENUM\Zebra_Technologies_ZBE2B,USBPRINT\Zebra_Technologies_ZBE2B
+"Zebra UPS ZT400 (ZPL)" = BZM4Z2,LPTENUM\Zebra_Technologies_Z5CC7,USBPRINT\Zebra_Technologies_Z5CC7
+"Zebra  ZP455t (ZPL)" = ZP450,LPTENUM\Zebra_Technologies_ZB6D1,USBPRINT\Zebra_Technologies_ZB6D1
+"Zebra QLn320" = BAQLN320,USBPRINT\Zebra_TechnologiesQLC7F2
+"Zebra QLn320 (ZPL)" = BAQLN320Z,USBPRINT\Zebra_Technologies_ZDF32
+"Zebra RW 420" = BARW420,USBPRINT\Zebra_RW_420_1F61
+
+[ZDesigner.NTamd64]
+"Zebra  S4MDT-200 dpi" = BAS4MZ2,LPTENUM\Zebra_TechnologiesZT57FB,USBPRINT\Zebra_TechnologiesZT57FB,SERENUM\ZBR0044
+"Zebra S4M-203dpi EPL" = BAS4ME2,LPTENUM\ZEBRA_TECHNOLOGIESZT32B3,USBPRINT\Zebra_TechnologiesZT32B3
+"Zebra  110Xi4 203 dpi" = BA110XI42,LPTENUM\Zebra_TechnologiesZT4F6A,USBPRINT\Zebra_TechnologiesZT4F6A
+"Zebra  140XiIII Plus" = BA14XI3P,LPTENUM\Zebra_TechnologiesZT77DB,USBPRINT\Zebra_TechnologiesZT77DB
+"Zebra  Z4MPlusDT-200 dpi" = BAZ4M1P,LPTENUM\Zebra_TechnologiesZTAD62,USBPRINT\Zebra_TechnologiesZTAD62
+"Zebra  ZM400DT-200 dpi" = BZM4Z2,LPTENUM\Zebra_TechnologiesZTF241,USBPRINT\Zebra_TechnologiesZTF241,LPTENUM\Zebra_TechnologiesZT4FD8,USBPRINT\Zebra_TechnologiesZT4FD8
+"Zebra  R110XiIII Plus (200dpi)" = BAR110XI,LPTENUM\Zebra_TechnologiesZT6073,USBPRINT\Zebra_TechnologiesZT6073
+"Zebra  ZP 450-200 dpi" = ZP450,LPTENUM\Zebra_TechnologiesZT9BEC,USBPRINT\Zebra_TechnologiesZT9BEC,LPTENUM\Zebra_TechnologiesZT49B0,USBPRINT\Zebra_TechnologiesZT49AC,USBPRINT\Zebra_TechnologiesZT49B0,USBPRINT\Zebra_TechnologiesZTC80B,LPTENUM\Zebra_TechnologiesZTC80B
+"Zebra  Firmware Loader" = BAGK420D,LPTENUM\Zebra_TechnologiesFI44FA,USBPRINT\Zebra_TechnologiesFI44FA 
+"UPS Thermal 2442"=BAB2442,LPTENUM\Zebra_TechnologiesXX2442
+"UPS Thermal 2542"=BAB2442,LPTENUM\Zebra_TechnologiesXX2542
+"UPS Thermal 2543"=BAB2442,LPTENUM\Zebra_TechnologiesXX2543
+"UPS Thermal 2844"=BAB2844,USBPRINT\UPS_Thermal_2844_643C
+"Eltron LP2348"=BAB2348,USBPRINT\Eltron_LP2348_D655
+"Eltron TLP2044"=BAB2044,LPTENUM\Zebra_TechnologiesXX2044
+"Eltron LP2844"=BAB2844,USBPRINT\Eltron_LP2844_F252
+"Zebra  ZP455(EPL)"=BGK420DE,LPTENUM\Zebra_TechnologiesZT61EE,USBPRINT\Zebra_TechnologiesZT61EE
+"Zebra UPS ZT220 (EPL)" = BAS4ME2,LPTENUM\Zebra_Technologies_ZA6ED,USBPRINT\Zebra_Technologies_ZA6ED
+"Zebra  UPS ZT220 (ZPL)" = BAS4MZ2,LPTENUM\Zebra_Technologies_Z72EA,USBPRINT\Zebra_Technologies_Z72EA
+"Zebra UPS ZT230 (EPL)" = BAS4ME2,LPTENUM\Zebra_Technologies_Z6A2C,USBPRINT\Zebra_Technologies_Z6A2C
+"Zebra  UPS ZT230 (ZPL)" = BAS4MZ2,LPTENUM\Zebra_Technologies_ZBE2B,USBPRINT\Zebra_Technologies_ZBE2B
+"Zebra UPS ZT400 (ZPL)" = BZM4Z2,LPTENUM\Zebra_Technologies_Z5CC7,USBPRINT\Zebra_Technologies_Z5CC7
+"Zebra  ZP455t (ZPL)" = ZP450,LPTENUM\Zebra_Technologies_ZB6D1,USBPRINT\Zebra_Technologies_ZB6D1
+"Zebra QLn320" = BAQLN320,USBPRINT\Zebra_TechnologiesQLC7F2
+"Zebra QLn320 (ZPL)" = BAQLN320Z,USBPRINT\Zebra_Technologies_ZDF32
+"Zebra RW 420" = BARW420,USBPRINT\Zebra_RW_420_1F61
+
+[BAS4MZ2]
+CopyFiles=@BAS4MZ2.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAS4MZ2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAS4ME2]
+CopyFiles=@BAS4ME2.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAS4ME2.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110XI42]
+CopyFiles=@BA110XI42.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BA110XI42.dat
+DataSection=THERMAL_DATA_NT
+
+[BA14XI3P]
+CopyFiles=@BA14XI3P.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BA14XI3P.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZ4M1P]
+CopyFiles=@BAZ4M1P.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAZ4M1P.dat
+DataSection=THERMAL_DATA_NT
+
+[BZM4Z2]
+CopyFiles=@BZM4Z2.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BZM4Z2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAR110XI]
+CopyFiles=@BAR110XI.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAR110XI.dat
+DataSection=THERMAL_DATA_NT
+
+[ZP450]
+CopyFiles=@ZP450.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=ZP450.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGK420D]
+CopyFiles=@BAGK420D.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAGK420D.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB2844]
+CopyFiles=@BAB2844.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAB2844.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB2442]
+CopyFiles=@BAB2442.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAB2442.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB2348]
+CopyFiles=@BAB2348.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAB2348.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB2044]
+CopyFiles=@BAB2044.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAB2044.dat
+DataSection=THERMAL_DATA_NT
+
+[BGK420DE]
+CopyFiles=@BGK420DE.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BGK420DE.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLN320]
+CopyFiles=@BAQLN320.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAQLN320.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLN320Z]
+CopyFiles=@BAQLN320Z.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAQLN320Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BARW420]
+CopyFiles=@BARW420.dat,THERMAL_NT,LANGMON_NT,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BARW420.dat
+DataSection=THERMAL_DATA_NT
+
+[BAS4MZ2.NTamd64]
+CopyFiles=@BAS4MZ2.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAS4MZ2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAS4ME2.NTamd64]
+CopyFiles=@BAS4ME2.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAS4ME2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110XI42.NTamd64]
+CopyFiles=@BA110XI42.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BA110XI42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA14XI3P.NTamd64]
+CopyFiles=@BA14XI3P.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BA14XI3P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZ4M1P.NTamd64]
+CopyFiles=@BAZ4M1P.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAZ4M1P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZM4Z2.NTamd64]
+CopyFiles=@BZM4Z2.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BZM4Z2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAR110XI.NTamd64]
+CopyFiles=@BAR110XI.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAR110XI.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZP450.NTamd64]
+CopyFiles=@ZP450.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=ZP450.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGK420D.NTamd64]
+CopyFiles=@BAGK420D.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAGK420D.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB2442.NTamd64]
+CopyFiles=@BAB2442.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAB2442.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB2844.NTamd64]
+CopyFiles=@BAB2844.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAB2844.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB2348.NTamd64]
+CopyFiles=@BAB2348.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAB2348.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB2044.NTamd64]
+CopyFiles=@BAB2044.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAB2044.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGK420DE.NTamd64]
+CopyFiles=@BGK420DE.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BGK420DE.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLN320.NTamd64]
+CopyFiles=@BAQLN320.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAQLN320.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLN320Z.NTamd64]
+CopyFiles=@BAQLN320Z.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BAQLN320Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARW420.NTamd64]
+CopyFiles=@BARW420.dat,THERMAL_NT_64,LANGMON_NT_64,@ZDesign.CHM,@zlogo.bmp,@Angsana.MMF,@Gothic.MMF,@Korean.MMF,@Mincho.MMF,@MKai.MMF,@MSung.MMF,@AndaleJ.MMF,@AndaleK.MMF,@AndaleT.MMF,@AndaleS.MMF,@ZplErr.sme,@EplErr.sme,@ToolsZPL.dll,@ToolsEPL.dll,@ToolsCPCL.dll,@ToolsKIOSK.dll,@ToolsZPLx64.dll,@ToolsEPLx64.dll,@ToolsCPCLx64.dll,@ToolsKIOSKx64.dll,@ZplKskErr.sme,@CpClErr.sme,FNTFILES
+DataFile=BARW420.dat
+DataSection=THERMAL_DATA_NT_64
+
+[THERMAL_NT]
+ZDNdrv50.dll,,,0x00000004
+ZDNui50.dll,,,0x00000004
+ZDNENG50.DLL
+ZDNSLO50.DLL
+ZDNCRO50.DLL
+ZDNGER50.DLL
+ZDNFRA50.DLL
+ZDNSPA50.DLL
+ZDNITA50.DLL
+ZDNFIN50.DLL
+ZDNDUT50.DLL
+ZDNPOR50.DLL
+ZDNCZE50.DLL
+ZDNPOL50.DLL
+ZDNHUN50.DLL
+ZDNRUS50.DLL
+ZDNTUR50.DLL
+ZDNSWE50.DLL
+ZDNLIT50.DLL
+ZDNCHI50.DLL
+ZDNSCH50.DLL
+ZDNTAI50.DLL
+ZDNKOR50.DLL
+ZDNJAP50.DLL
+ZDNUKR50.DLL
+zdnPMU.dll
+zdnPMS.dll
+
+[LANGMON_NT]
+zdnNLMNT.dll,,,0x00000004
+
+[THERMAL_NT_64]
+ZDNdrv56.dll,,,0x00000004
+ZDNui56.dll,,,0x00000004
+ZDNENG56.DLL
+ZDNSLO56.DLL
+ZDNCRO56.DLL
+ZDNGER56.DLL
+ZDNFRA56.DLL
+ZDNSPA56.DLL
+ZDNITA56.DLL
+ZDNFIN56.DLL
+ZDNDUT56.DLL
+ZDNPOR56.DLL
+ZDNCZE56.DLL
+ZDNPOL56.DLL
+ZDNHUN56.DLL
+ZDNRUS56.DLL
+ZDNTUR56.DLL
+ZDNSWE56.DLL
+ZDNLIT56.DLL
+ZDNCHI56.DLL
+ZDNSCH56.DLL
+ZDNTAI56.DLL
+ZDNKOR56.DLL
+ZDNJAP56.DLL
+ZDNUKR56.DLL
+zdnPMU.dll
+zdnPMS.dll
+
+[LANGMON_NT_64]
+zdnNLM64.dll,,,0x00000004
+
+[THERMAL_DATA_NT]
+DriverFile=ZDNdrv50.dll
+ConfigFile=ZDNui50.dll
+NoTestPage=1
+DefaultDataType=RAW
+LanguageMonitor="ZDesigner Language Monitor,zdnNLMNT.dll"
+LanguageMonitorFiles=@zdnNLMNT.dll
+HelpFile=ZDesign.CHM
+
+[THERMAL_DATA_NT_64]
+DriverFile=ZDNdrv56.dll
+ConfigFile=ZDNui56.dll
+NoTestPage=1
+DefaultDataType=RAW
+LanguageMonitor="ZDesigner Language Monitor,zdnNLM64.dll"
+LanguageMonitorFiles=@zdnNLM64.dll
+HelpFile=ZDesign.CHM
+
+[PortMonitors]
+"ZDesigner Port Monitor" = PortMonzdn
+
+[PortMonzdn]
+CopyFiles=PortMonzdn_Files
+PortMonitorDll=zdnPMS.dll
+
+[PortMonzdn_Files]
+zdnPMS.dll
+zdnPMU.dll
+
+[FNTFILES]
+ZebraBarcode.ttf
+
+[DestinationDirs]
+PortMonzdn_Files=11
+DefaultDestDir=66000
+LANGMON_NT=66002
+LANGMON_NT_64=66002
+FNTFILES=20
+
+[SourceDisksNames]
+1 = %Floppy%,,,\Win32
+2 = %Floppy%,,,\Common
+
+[SourceDisksNames.amd64]
+1 = %Floppy%,,,\Win64
+2 = %Floppy%,,,\Common
+
+[SourceDisksFiles.x86]
+zdnNLMNT.DLL = 1
+ZDNDRV50.DLL = 1
+ZDNUI50.DLL = 1
+ZDNENG50.DLL = 1
+ZDNSLO50.DLL = 1
+ZDNCRO50.DLL = 1
+ZDNGER50.DLL = 1
+ZDNFRA50.DLL = 1
+ZDNSPA50.DLL = 1
+ZDNITA50.DLL = 1
+ZDNFIN50.DLL = 1
+ZDNDUT50.DLL = 1
+ZDNPOR50.DLL = 1
+ZDNCZE50.DLL = 1
+ZDNPOL50.DLL = 1
+ZDNHUN50.DLL = 1
+ZDNRUS50.DLL = 1
+ZDNTUR50.DLL = 1
+ZDNSWE50.DLL = 1
+ZDNLIT50.DLL = 1
+ZDNCHI50.DLL = 1
+ZDNSCH50.DLL = 1
+ZDNTAI50.DLL = 1
+ZDNKOR50.DLL = 1
+ZDNJAP50.DLL = 1
+ZDNUKR50.DLL = 1
+
+[SourceDisksFiles.amd64]
+zdnNLM64.DLL = 1
+ZDNDRV56.DLL = 1
+ZDNUI56.DLL = 1
+ZDNENG56.DLL = 1
+ZDNSLO56.DLL = 1
+ZDNCRO56.DLL = 1
+ZDNGER56.DLL = 1
+ZDNFRA56.DLL = 1
+ZDNSPA56.DLL = 1
+ZDNITA56.DLL = 1
+ZDNFIN56.DLL = 1
+ZDNDUT56.DLL = 1
+ZDNPOR56.DLL = 1
+ZDNCZE56.DLL = 1
+ZDNPOL56.DLL = 1
+ZDNHUN56.DLL = 1
+ZDNRUS56.DLL = 1
+ZDNTUR56.DLL = 1
+ZDNSWE56.DLL = 1
+ZDNLIT56.DLL = 1
+ZDNCHI56.DLL = 1
+ZDNSCH56.DLL = 1
+ZDNTAI56.DLL = 1
+ZDNKOR56.DLL = 1
+ZDNJAP56.DLL = 1
+ZDNUKR56.DLL = 1
+
+[SourceDisksFiles]
+zdnPMS.dll = 1
+zdnPMU.dll = 1
+BAS4MZ2.dat = 2
+BAS4MZ2.BA0 = 2
+BAS4ME2.dat = 2
+BAS4ME2.BA0 = 2
+BA110XI42.dat = 2
+BA110XI42.BA0 = 2
+BA14XI3P.dat = 2
+BA14XI3P.BA0 = 2
+BAZ4M1P.dat = 2
+BAZ4M1P.BA0 = 2
+BZM4Z2.dat = 2
+BZM4Z2.BA0 = 2
+BAR110XI.dat = 2
+BAR110XI.BA0 = 2
+ZP450.dat = 2
+ZP450.BA0 = 2
+BAGK420D.dat = 2
+BAGK420D.BA0 = 2
+BAB2442.dat = 2
+BAB2442.BA0 = 2
+BAB2844.dat = 2
+BAB2844.BA0 = 2
+BAB2348.dat = 2
+BAB2348.BA0 = 2
+BAB2044.dat = 2
+BAB2044.BA0 = 2
+BGK420DE.dat = 2
+BGK420DE.BA0 = 2
+BAQLN320.dat = 2
+BAQLN320.BA0 = 2
+BAQLN320Z.dat = 2
+BAQLN320Z.BA0 = 2
+BARW420.dat = 2
+BARW420.BA0 = 2
+ZDesign.CHM = 2
+Angsana.MMF = 2
+Gothic.MMF = 2
+Korean.MMF = 2
+Mincho.MMF = 2
+MKai.MMF = 2
+MSung.MMF = 2
+AndaleJ.MMF = 2
+AndaleK.MMF = 2
+AndaleT.MMF = 2
+AndaleS.MMF = 2
+ZplErr.sme = 2
+EplErr.sme = 2
+ToolsZPL.dll = 2
+ToolsEPL.dll = 2
+ToolsCPCL.dll = 2
+ToolsKIOSK.dll = 2
+ToolsZPLx64.dll = 2
+ToolsEPLx64.dll = 2
+ToolsCPCLx64.dll = 2
+ToolsKIOSKx64.dll = 2
+ZplKskErr.sme = 2
+BAKKR403.PP0 = 2
+CpClErr.sme = 2
+ZebraBarcode.ttf = 2
+zlogo.bmp = 2
+
+[Strings]
+Floppy="ZDesigner Printer Driver Disk"
+CLASSNAME="Printer"
+
+[AppInstall]
+AppName=Zebra Font Downloader
+AppIcon=*STARTUP*, "Zebra Font Downloader", ..\ZebraFD.exe, 0
+DesktopIcon="Zebra Font Downloader", ..\ZebraFD.exe, 0
+AppFiles=@..\ZebraFD.exe
+AppDest=*PRGFILES*\Zebra Font Downloader
+AppName2=Zebra Status Monitor
+AppFiles2=@..\StatMonSetup.exe
+AppDest2=*PRGFILES*\Zebra Status Monitor
+AppFlag=3
+AppDefaultCheck=1
+
+[PRNINST]
+AllowNewPortInstallationDlg=0
+Languages=1,3,4,5,7,8,9,10,11,12,13,14,15,16,18,19,22,23,24,25,26,27,28
